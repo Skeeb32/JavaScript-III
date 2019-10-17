@@ -15,11 +15,7 @@
 // code example for Window Binding
 'use strict mode'
 // if you have “strict mode” enabled, JavaScript will do the right thing and instead of defaulting to the window object will just keep “this” as undefined.
-window.age = 27
-function sayAge () {
-    console.log(`My age is ${this.age}`)
-}
-sayAge();
+console.log(this)
 
 // Principle 2
 

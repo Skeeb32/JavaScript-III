@@ -49,7 +49,6 @@ CharacterStats.prototype.takeDamage = function() {
   * should inherit takeDamage() from CharacterStats
 */
 function Humanoid(humanAttrs) {
-  GameObject.call(this, humanAttrs);
   CharacterStats.call(this,humanAttrs);
   this.team = humanAttrs.team;
   this.weapons = humanAttrs.weapons;
